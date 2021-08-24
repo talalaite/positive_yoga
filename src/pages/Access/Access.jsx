@@ -10,8 +10,10 @@ const Access = () => (
       plans ordered.
     </S.OrdersCount>
     <S.Title>Get access to your yoga program now!</S.Title>
-    <PlansOptions />
-    <Program />
+    <S.Wrapper>
+      <PlansOptions />
+      <Program />
+    </S.Wrapper>
   </S.Block>
 );
 export default Access;

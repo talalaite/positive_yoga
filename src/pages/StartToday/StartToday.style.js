@@ -3,24 +3,14 @@ import styled from 'styled-components';
 export const Block = styled.div`
   padding: 0 1rem;
   text-align: left;
+  margin-bottom: 4rem;
   @media only screen and (min-width: 768px) {
     max-width: 45.625rem;
     margin: 0 auto;
     text-align: center;
     padding-top: 3rem;
+    margin-bottom: 7rem;
   }
-`;
-
-export const OrdersCount = styled.p`
-  color: #000000;
-  font-size: 0.875rem;
-  font-weight: 400;
-  margin: 1rem 0 0 0;
-  letter-spacing: 0.031rem;
-`;
-
-export const Bold = styled.span`
-  font-weight: 700;
 `;
 
 export const Title = styled.h1`

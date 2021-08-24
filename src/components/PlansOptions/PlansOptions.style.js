@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  @media only screen and (min-width: 768px) {
+    width: 50%;
+  }
+`;
 
 export const Subtitle = styled.h3`
   font-size: 1.25rem;
