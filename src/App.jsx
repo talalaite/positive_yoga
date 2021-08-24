@@ -1,9 +1,12 @@
 import React from 'react';
+import { StickyDiscount, Header } from './components';
+import { Access } from './pages';
 
 const App = () => (
   <>
-    <h1>Hey</h1>
-    <h2>olaaa</h2>
+    <StickyDiscount />
+    <Header />
+    <Access />
   </>
 );
 
