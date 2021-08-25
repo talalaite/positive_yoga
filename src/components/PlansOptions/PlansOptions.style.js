@@ -8,7 +8,7 @@ export const Container = styled.div`
 
 export const Subtitle = styled.h3`
   font-size: 1.25rem;
-  font-weight: 700;
+  font-weight: 800;
 `;
 
 export const OrangeText = styled.span`
@@ -65,6 +65,7 @@ export const LineThrough = styled.span`
 `;
 
 export const OrangePrice = styled.span`
+  font-weight: 700;
   color: #ff9b4e;
 `;
 

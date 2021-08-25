@@ -1,5 +1,5 @@
 import React from 'react';
-import { StickyDiscount, Header } from './components';
+import { StickyDiscount, Header, ClientsSuccess } from './components';
 import { Access, StartToday } from './pages';
 
 const App = () => (
@@ -7,7 +7,7 @@ const App = () => (
     <StickyDiscount />
     <Header />
     <Access />
-
+    <ClientsSuccess />
     <StartToday />
   </>
 );
