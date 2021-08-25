@@ -9,8 +9,8 @@ const Client = ({ name, age, city, stars, picture, story }) => (
     <S.PersonalDetails>{`${name}, ${age}`}</S.PersonalDetails>
     <S.City>{city}</S.City>
     <S.Stars>
-      {Array.from(Array(stars)).map(() => (
-        <S.Star src={Star} alt="stars" />
+      {Array.from(Array(stars)).map((element, index) => (
+        <S.Star src={Star} alt="stars" key={index} /> // eslint-disable-line react/no-array-index-key
       ))}
     </S.Stars>
     <S.Picture src={picture} alt="Client picture" />

@@ -23,7 +23,9 @@ export const City = styled.span`
   font-size: 0.75rem;
 `;
 
-export const Stars = styled.div``;
+export const Stars = styled.div`
+  padding: 1rem 0;
+`;
 
 export const Star = styled.img``;
 
